@@ -2,6 +2,7 @@
 
 from app import app
 from models import db, Restaurant, Pizza, RestaurantPizza
+from flask import Flask, jsonify
 
 with app.app_context():
 
